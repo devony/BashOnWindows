@@ -114,3 +114,6 @@ if ! shopt -oq posix; then
 fi
 
 eval $(dircolors -b $HOME/.dircolors)
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
